@@ -1,0 +1,280 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.searchButton{
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  cursor: pointer;
+  font-size: large;
+  background: #ffffff no-repeat right top;
+  background-position: center;
+  background-size: cover;
+  background-origin: content-box;
+  background-clip: content-box
+}
+
+.title {
+  padding-bottom: 15px;
+}
+
+
+.searchTextCont {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: table-cell;
+  box-sizing: border-box;
+  border-right: 1px solid #282c34;
+}
+
+.searchButtonCont {
+  display: table-cell;
+  cursor: pointer;
+  width: 100px;
+  height: 48px;
+  max-height: 50px;
+  border: 0px;
+}
+
+.App-header-results {
+  background-color: #282c34;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 25px;
+}
+
+.resultText {
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  padding: 20px;
+}
+
+.sarstext {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 450px;
+  height: 30px;
+  max-height: 32px;
+  border: 0px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  padding: 8px;
+  font-size: large;
+  color: #282c34;
+}
+
+.citytext {
+  margin-right: 20px;
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: large;
+  color: #282c34;
+}
+
+.statetext {
+  margin-left: 20px;
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: large;
+  color: #282c34;
+}
+
+
+.location {
+  font-size: large;
+  padding: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.results {
+  width: 95%;
+}
+
+.recommendations: {
+  width: 95%
+}
+
+.resultsPane {
+  display: inline-block;  
+  width: 85%;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.resultsPane .table {
+  display: table;
+  width:100%;
+}
+
+.resultsPane .left {
+  display: table-cell;
+  text-align: left;
+  padding: 10px;
+}
+
+.resultsPane .right {
+  display: table-cell;
+  padding: 10px;
+  text-align: left;
+
+}
+
+.resultLabel { 
+ padding: 15px 20px 5px 40px;
+ font-size: x-large;
+ color: #282c34;
+}
+
+.recommendationsview {
+  padding: 20px 20px 40px 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.searchview {
+  padding: 20px 20px 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.businessData {
+  display: table-cell;  
+  width: 82%;
+}
+
+.sentimentData {
+  display: table-cell;
+  font-size: small;  
+  width: 25%;
+}
+
+.businessName {
+   font-size:  x-large;
+   color: #256ca3;
+}
+
+.addressName {
+  font-size: medium;
+  color: #1fa391;
+  padding: 10px 0px 0px 0px;
+}
+
+.ratingcontainer {
+  padding: 10px 0px 5px 0px;
+  vertical-align: top;
+}
+
+.noresults {
+  padding: 15px 20px 5px 50px;
+  font-size: medium;
+  color: #dd0000;
+}
+
+.ratings {
+  font-size: medium;
+  color: #6699cc;
+  vertical-align: bottom;
+}
+
+.starcontainer {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.star {
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.positive {
+   font-size: x-large;
+   color: #28c933;
+}
+
+.neutral {
+   font-size: x-large;
+   color: #cccc00;
+}
+
+.negative {
+   font-size: x-large;
+   color: #cc0000;
+}
+
+.businesstopics {
+   font-size: smaller;
+   color: #cccc00;
+   display: block;
+}
+
+.rendertopics {
+  display: block;
+  font-size: smaller;
+  color: #28c933;
+}
+
+.hidetopics {
+  display: none;
+  font-size: smaller;
+  color: #28c933;
+}
+
+.topicLabel {
+  font-size: small;
+  color: #28c933;
+  cursor: pointer;
+}
+
+.help {
+   font-size: medium; 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
